@@ -1,0 +1,124 @@
+!SESSION 2021-12-11 09:20:41.596 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-11 09:21:29.534
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-11 09:21:29.534
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64e657b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50013a15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-11 09:21:50.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-12-11 09:21:50.883
+!MESSAGE An internal error occurred during: "AutoRegisterSchemeHandlersJob".
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Users\lenovo\AppData\Local\Temp\jna--1106355917\jna15163477423567947767.dll: Acceso denegado
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2383)
+	at java.base/java.lang.Runtime.load0(Runtime.java:746)
+	at java.base/java.lang.System.load(System.java:1857)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:1019)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:989)
+	at com.sun.jna.Native.<clinit>(Native.java:195)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:52)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:48)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:736)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:717)
+	at org.eclipse.urischeme.internal.registration.WinRegistry.getValueForKey(WinRegistry.java:44)
+	at org.eclipse.urischeme.internal.registration.RegistryWriter.getRegisteredHandlerPath(RegistryWriter.java:80)
+	at org.eclipse.urischeme.internal.registration.RegistrationWindows.getSchemesInformation(RegistrationWindows.java:89)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-12-11 09:23:14.402
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-12-11 09:23:16.307 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-11 09:23:24.702
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-11 09:23:24.702
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48d464cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e14b269,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-12-11 09:23:31.238
+!MESSAGE An internal error occurred during: "AutoRegisterSchemeHandlersJob".
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Users\lenovo\AppData\Local\Temp\jna--1106355917\jna15935288225128444581.dll: Acceso denegado
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2383)
+	at java.base/java.lang.Runtime.load0(Runtime.java:746)
+	at java.base/java.lang.System.load(System.java:1857)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:1019)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:989)
+	at com.sun.jna.Native.<clinit>(Native.java:195)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:52)
+	at com.sun.jna.platform.win32.WinReg$HKEYByReference.<init>(WinReg.java:48)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:736)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:717)
+	at org.eclipse.urischeme.internal.registration.WinRegistry.getValueForKey(WinRegistry.java:44)
+	at org.eclipse.urischeme.internal.registration.RegistryWriter.getRegisteredHandlerPath(RegistryWriter.java:80)
+	at org.eclipse.urischeme.internal.registration.RegistrationWindows.getSchemesInformation(RegistrationWindows.java:89)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-11 09:23:31.307
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-12-11 09:25:29.125
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
